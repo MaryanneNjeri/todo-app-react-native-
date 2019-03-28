@@ -1,13 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View, StatusBar,ScrollView,ActivityIndicator,AsyncStorage } from 'react-native';
+import { StyleSheet,  View, StatusBar,ScrollView,ActivityIndicator,AsyncStorage } from 'react-native';
 import { LinearGradient } from 'expo';
 import { primaryGradientArray } from './utils/Colors';
 import Header from './components/Header'; 
+import SubTitle from './components/SubTitle'; 
 import Input from './components/Input';
 import uuid from 'uuid/v1'; 
 import List from './components/List'; 
+import Button from './components/Button';
 
 const headerTitle='To Do';
+const subTitle = '';
 export default class Main extends React.Component {
   state={
     inputValue:'',
@@ -147,6 +150,7 @@ export default class Main extends React.Component {
           <Header title={headerTitle} />
         </View>
         <View style={styles.inputContainer}>
+        <SubTitle subtitle = {'what next'}/>
         
           <Input
             inputValue={inputValue}
@@ -156,8 +160,9 @@ export default class Main extends React.Component {
         </View>
         <View style={styles.list}>
           <View style={styles.column}>
-            
-            <View style={styles.deleteAllButton}>
+            <SubTitle subtitle = {'Recent Notes'}/>
+            <View style={styles.deleteAllButton}> 
+            <Button deleteAllItems = {this.deleteAllItems}/>
               
             </View>
           </View>
