@@ -2,266 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a5bd87-29e2-4390-80cd-d4df6c0ea7b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navigation/App/AppNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navigation/Auth/AuthNavigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/navigation/MainAppNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/LoginScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/AppNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/MainTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.0.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.4.0.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/NavigationActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/NavigationActions.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/StateUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/StateUtils.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildEventSubscriber.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildEventSubscriber.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildNavigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildNavigation.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildRouter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildrenNavigationCache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getChildrenNavigationCache.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getNavigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/getNavigation.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/navigators/createNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/navigators/createNavigator.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/navigators/createSwitchNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/navigators/createSwitchNavigator.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/KeyGenerator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/KeyGenerator.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/StackActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/StackActions.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/StackRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/StackRouter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/SwitchRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/SwitchRouter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/TabRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/TabRouter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/createConfigGetter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/createConfigGetter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/getNavigationActionCreators.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/getNavigationActionCreators.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/getScreenForRouteName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/getScreenForRouteName.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/pathUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/pathUtils.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/validateRouteConfigMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/validateRouteConfigMap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/validateScreenOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/routers/validateScreenOptions.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/docsUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/docsUrl.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/getActiveChildNavigationOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/getActiveChildNavigationOptions.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/getSceneIndicesForInterpolationInputRange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/getSceneIndicesForInterpolationInputRange.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/invariant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/invariant.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/withDefaultValue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/utils/withDefaultValue.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationConsumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationConsumer.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationContext.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationEvents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationEvents.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/NavigationProvider.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/SceneView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/SceneView.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/SwitchView/SwitchView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/SwitchView/SwitchView.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/withNavigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/withNavigation.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/withNavigationFocus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/dist/views/withNavigationFocus.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/NavigationActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/NavigationActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/NavigationActions-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/NavigationActions-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/NavigationStateUtils-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/NavigationStateUtils-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/getChildEventSubscriber-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/getChildEventSubscriber-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/getNavigation-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/__tests__/getNavigation-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/getChildNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/getChildNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/getNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/getNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/navigators/createNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/navigators/createNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/StackActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/StackActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/StackRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/StackRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/SwitchRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/SwitchRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/PathHandling-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/PathHandling-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/Routers-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/Routers-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/StackRouter-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/StackRouter-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/SwitchRouter-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/SwitchRouter-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/TabRouter-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/TabRouter-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/createConfigGetter-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/createConfigGetter-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/pathUtils-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/pathUtils-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/validateRouteConfigMap-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/__tests__/validateRouteConfigMap-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/createConfigGetter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/createConfigGetter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/getNavigationActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/getNavigationActionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/pathUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/routers/pathUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/utils/getActiveChildNavigationOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/utils/getActiveChildNavigationOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/views/NavigationConsumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/views/NavigationContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/views/NavigationProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/views/withNavigationFocus.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/core/src/views/withNavigationFocus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/ResourceSavingSceneView.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/ResourceSavingSceneView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/Scrollables.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/Scrollables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/createAppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/createAppContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/createNavigationAwareScrollable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/createNavigationAwareScrollable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/ResourceSavingSceneView.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/ResourceSavingSceneView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/Scrollables.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/Scrollables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/__tests__/createAppContainer-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/__tests__/createAppContainer-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/createAppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/createAppContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/createNavigationAwareScrollable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/createNavigationAwareScrollable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-navigation/native/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/lib/implementation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/lib/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/lib/index.js.flow" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/lib/maxSigned31BitInt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/create-react-context/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gud/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gud/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gud/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/query-string/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/query-string/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/query-string/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/query-string/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/query-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/query-string/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/query-string/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/query-string/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/react-lifecycles-compat.cjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/react-lifecycles-compat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-lifecycles-compat/react-lifecycles-compat.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/index.js.flow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/withOrientation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/withOrientation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-view/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-tab-view/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-tab-view/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-tab-view/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-tab-view/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-tab-view/src/PagerScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-tab-view/src/PagerScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-tab-view/src/TabBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-tab-view/src/TabBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-tab-view/src/TouchableItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-tab-view/src/TouchableItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/navigators/createDrawerNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/navigators/createDrawerNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/views/DrawerLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/views/DrawerNavigatorItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/views/DrawerNavigatorItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/views/DrawerView.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/views/DrawerView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-drawer/dist/views/backup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-drawer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-drawer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-stack/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/index.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/navigators/createStackNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/utils/ReactNativeFeatures.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/utils/StackGestureContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/utils/clamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/utils/getSceneIndicesForInterpolationInputRange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/utils/invariant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/utils/shallowEqual.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/BorderlessButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/Header/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/Header/HeaderBackButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/Header/HeaderStyleInterpolator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/Header/HeaderTitle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/Header/ModularHeaderBackButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/ScenesReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/StackView/StackView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/StackView/StackViewCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/StackView/StackViewLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/StackView/StackViewStyleInterpolator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/StackView/StackViewTransitionConfigs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/StackView/createPointerEventsContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/TouchableItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/Transitioner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon-mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@1.5x.android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@1.5x.ios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@1x.android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@1x.ios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@2x.android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@2x.ios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@3x.android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@3x.ios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@4x.android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/dist/views/assets/back-icon@4x.ios.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-stack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/index.web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/navigators/__tests__/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/navigators/__tests__/NestedNavigator-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/navigators/__tests__/StackNavigator-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/navigators/__tests__/__snapshots__/NestedNavigator-test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/navigators/__tests__/__snapshots__/StackNavigator-test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/navigators/createStackNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/utils/ReactNativeFeatures.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/utils/StackGestureContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/utils/clamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/utils/getSceneIndicesForInterpolationInputRange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/utils/invariant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/utils/shallowEqual.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/BorderlessButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/Header/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/Header/HeaderBackButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/Header/HeaderStyleInterpolator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/Header/HeaderTitle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/Header/ModularHeaderBackButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/ScenesReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/StackView/StackView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/StackView/StackViewCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/StackView/StackViewLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/StackView/StackViewStyleInterpolator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/StackView/StackViewTransitionConfigs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/StackView/createPointerEventsContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/TouchableItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/Transitioner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/__tests__/ScenesReducer-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-stack/src/views/__tests__/Transitioner-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/createBottomTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/createMaterialTopTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/navigators/createBottomTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/navigators/createMaterialBottomTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/navigators/createMaterialTopTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/utils/createTabNavigator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/utils/withDimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/views/BottomTabBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/views/CrossFadeIcon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/views/MaterialTopTabBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/dist/views/ResourceSavingScene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/navigators/createBottomTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/navigators/createBottomTabNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/navigators/createMaterialTopTabNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/navigators/createMaterialTopTabNavigator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/views/BottomTabBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/views/BottomTabBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/views/MaterialTopTabBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation-tabs/src/views/MaterialTopTabBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation/src/react-navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation/src/react-navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-navigation/typescript/react-navigation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-navigation/typescript/react-navigation.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/split-on-first/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/split-on-first/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/split-on-first/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/split-on-first/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/LoadingScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/Auth/AuthNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/Auth/AuthNavigator.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,89 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screens/HomeScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="19" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/Input.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/components/Button.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/navigation/App/AppNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="149" column="25" lean-forward="true" selection-end-line="219" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/navigation/Auth/AuthNavigator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+            <state relative-caret-position="154">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -363,12 +29,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/MainAppNavigation.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navigation/Auth/AuthNavigator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <element signature="e#0#75#0" expanded="true" />
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -384,6 +59,58 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screens/LinksScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/screens/LoadingScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constants/Colors.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constants/Layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/utils/Colors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/LoginForm.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -403,7 +130,9 @@
         <option value="$PROJECT_DIR$/navigation/App/AppNavigator.js" />
         <option value="$PROJECT_DIR$/navigation/MainAppNavigation.js" />
         <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/navigation/Auth/AuthNavigator.js" />
+        <option value="$PROJECT_DIR$/screens/LoadingScreen.js" />
       </list>
     </option>
   </component>
@@ -434,18 +163,17 @@
               <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
               <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
               <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
               <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
@@ -457,6 +185,17 @@
               <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
               <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-app-react-native-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-app-react-native-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,12 +239,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567529877499</updated>
-      <workItem from="1567529879311" duration="3491000" />
+      <workItem from="1567529879311" duration="6620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3491000" />
+    <option name="totallyTimeSpent" value="6620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1017" y="27" width="903" height="1053" extended-state="0" />
@@ -513,13 +252,13 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24970828" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24970828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
@@ -566,15 +305,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/SubTitle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screens/LinksScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -647,23 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screens/LoginScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/App/AppNavigator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/navigation/MainAppNavigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -684,12 +397,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/Auth/AuthNavigator.js">
+    <entry file="file://$PROJECT_DIR$/navigation/App/AppNavigator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="154">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/Auth/AuthNavigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/LoginScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/LinksScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants/Colors.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/Colors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screens/LoadingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
