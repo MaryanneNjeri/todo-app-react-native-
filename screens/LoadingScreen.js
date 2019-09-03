@@ -1,7 +1,7 @@
 import React from 'react';
 import { LinearGradient } from "expo";
 import {primaryGradientArray } from "../app/utils/Colors";
-import { StyleSheet,Dimensions } from 'react-native'
+import { StyleSheet,Dimensions,Image } from 'react-native'
 import {Content,Container,Text,Button,View} from "native-base";
 
 const { width } = Dimensions.get('window');
@@ -37,6 +37,16 @@ const styles = StyleSheet.create({
         marginBottom: 100,
         position: 'absolute',
         bottom: 0,
+    },
+    imageContainer:{
+        alignItems:'center',
+        flexGrow: 0.5,
+        justifyContent: 'center'
+    },
+    logo:{
+        position: 'absolute',
+        width: 600,
+        height: 400,
     }
 });
 export default class LoadingScreen extends React.Component{
@@ -45,6 +55,9 @@ export default class LoadingScreen extends React.Component{
             <Container>
                 <LinearGradient colors={primaryGradientArray} style={styles.gradient}>
                 <Content contentContainerStyle={styles.container}>
+                    <View style={styles.imageContainer}>
+                        <Image resizeMode='contain' style={styles.logo} source={require('../assets/images/logo1.png')}/>
+                    </View>
                     <View style={styles.buttonsContainer}>
                     <Button transparent bordered style={styles.button}><Text style={{color:'white',fontWeight: '200'}}>Sign up</Text></Button>
                     <Button bordered style={styles.button1}><Text style={{color:'#d13e60',fontWeight:'200'}}>Login</Text></Button>
