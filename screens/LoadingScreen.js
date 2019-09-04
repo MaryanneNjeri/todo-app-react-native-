@@ -51,7 +51,12 @@ const styles = StyleSheet.create({
     }
 });
 export default class LoadingScreen extends React.Component{
+    logIn= ()=>{
+
+    this.props.navigation.navigate('Login');
+    };
     render() {
+
         return(
             <Container>
                 <LinearGradient colors={primaryGradientArray} style={styles.gradient}>
@@ -61,7 +66,7 @@ export default class LoadingScreen extends React.Component{
                     </View>
                     <View style={styles.buttonsContainer}>
                     <Button transparent bordered style={styles.button}><Text style={{color:'white',fontWeight: '200'}}>Sign up</Text></Button>
-                    <Button bordered style={styles.button1}><Text style={{color:'#d13e60',fontWeight:'200'}}>Login</Text></Button>
+                    <Button bordered onPress={this.logIn} style={styles.button1}><Text style={{color:'#d13e60',fontWeight:'200'}} >Login</Text></Button>
                     </View>
                 </Content>
                 </LinearGradient>
