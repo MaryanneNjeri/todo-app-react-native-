@@ -8,7 +8,7 @@ const { width } = Dimensions.get('window');
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        justifyContent: 'center',
+
         alignItems: 'center'
 
     },
@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
         marginTop:20
     },
     buttonsContainer: {
+
         marginBottom: 100,
         position: 'absolute',
         bottom: 0,
@@ -44,9 +45,9 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     logo:{
-        position: 'absolute',
-        width: 600,
-        height: 400,
+        alignItems:'center',
+        width: 200,
+        height: 200,
     }
 });
 export default class LoadingScreen extends React.Component{
@@ -56,7 +57,7 @@ export default class LoadingScreen extends React.Component{
                 <LinearGradient colors={primaryGradientArray} style={styles.gradient}>
                 <Content contentContainerStyle={styles.container}>
                     <View style={styles.imageContainer}>
-                        <Image resizeMode='contain' style={styles.logo} source={require('../assets/images/logo1.png')}/>
+                        <Image resizeMode='contain' style={styles.logo} source={require('../assets/images/logo.png')}/>
                     </View>
                     <View style={styles.buttonsContainer}>
                     <Button transparent bordered style={styles.button}><Text style={{color:'white',fontWeight: '200'}}>Sign up</Text></Button>
