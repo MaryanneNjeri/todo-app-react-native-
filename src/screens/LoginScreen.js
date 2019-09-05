@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text,Container,Content,Icon,View,Header,Title,Left,Body,Right,Button } from "native-base";
 import { StyleSheet } from 'react-native';
-import LoginForm from '../app/components/Login/LoginForm';
+import LoginForm from '../../app/components/Login/LoginForm';
 
 const styles=StyleSheet.create({
    container:{

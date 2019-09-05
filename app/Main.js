@@ -1,134 +1,139 @@
 import React from 'react';
-import { StyleSheet,  View, StatusBar,ScrollView,ActivityIndicator,AsyncStorage } from 'react-native';
+import {
+  StyleSheet, View, StatusBar, ScrollView, ActivityIndicator, AsyncStorage,
+} from 'react-native';
 import { LinearGradient } from 'expo';
+import uuid from 'uuid/v1';
 import { primaryGradientArray } from './utils/Colors';
-import Header from './components/Header'; 
-import SubTitle from './components/SubTitle'; 
+import Header from './components/Header';
+import SubTitle from './components/SubTitle';
 import Input from './components/Input';
-import uuid from 'uuid/v1'; 
-import List from './components/List'; 
+import List from './components/List';
 import Button from './components/Button';
 
-const headerTitle='To Do';
+const headerTitle = 'To Do';
 const subTitle = '';
 export default class Main extends React.Component {
   state={
-    inputValue:'',
-    loadingItems:false,
-    allItems:{},
-    isCompleted: false
+    inputValue: '',
+    loadingItems: false,
+    allItems: {},
+    isCompleted: false,
   };
+
   /*
-   we  use component did mount to call functions after a component is intialized 
+   we  use component did mount to call functions after a component is intialized
    after the component is intialized the loadingitems  method is called.
   */
-  componentDidMount = ()=> {
-  this.loadingItems();
+  componentDidMount = () => {
+    this.loadingItems();
+  }
 
-  } 
-  // when changing the state 
-  newInputValue =  value =>{
+  // when changing the state
+  newInputValue = (value) => {
     this.setState({
-      inputValue:value
+      inputValue: value,
     });
   };
 
-  /* we use this to read data from the device storage 
-  its async as we have to wait for the app to read data from the device storage 
+  /* we use this to read data from the device storage
+  its async as we have to wait for the app to read data from the device storage
   */
-  loadingItems = async() => {
+  loadingItems = async () => {
     try {
       const allItems = await AsyncStorage.getItem('ToDos');
       this.setState({
-        loadingItems:true,
-        allItems: JSON.parse(allItems) || {}
+        loadingItems: true,
+        allItems: JSON.parse(allItems) || {},
       });
-
-    } catch (err){
-      console.log(err)
+    } catch (err) {
+      console.log(err);
     }
   };
-  onDoneAddItem = ()=>{
-    const {inputValue }  = this.state;
-    if (inputValue !== ''){
-      this.setState(prevState=>{ 
+
+  onDoneAddItem = () => {
+    const { inputValue } = this.state;
+    if (inputValue !== '') {
+      this.setState((prevState) => {
         const id = uuid();
-        // we use the id as the variable name 
-        const newItemObject ={
-          [id]:{
+        // we use the id as the variable name
+        const newItemObject = {
+          [id]: {
             id,
             isCompleted: false,
-            text:inputValue,
-            createdAt: Date.now()
-          }
+            text: inputValue,
+            createdAt: Date.now(),
+          },
         };
         /*
-        we  use the prevstate 
-        clear the text input for new input 
-        and then we add the  new item object  at the end of  of the to do item list 
+        we  use the prevstate
+        clear the text input for new input
+        and then we add the  new item object  at the end of  of the to do item list
         */
         const newState = {
           ...prevState,
           inputValue: '',
-          allItems:{
+          allItems: {
             ...prevState.allItems,
-            ...newItemObject
-          }
+            ...newItemObject,
+          },
         };
         this.saveItems(newState.allItems);
-        return{...newState}
-
+        return { ...newState };
       });
-
     }
   };
+
   /*
-  To delete a todo we first acquire the  id from the state 
+  To delete a todo we first acquire the  id from the state
   */
-  deleteItem = id=>{
-  this.setState(prevState=>{
-    const allItems = prevState.allItems;
-    delete allItems[id];
-    const newState = {
-      ...prevState,
-      ...allItems
-    };
-    this.saveItems(newState.allItems);
-    return {...newState}
-  });
-  };
-  completeItem = id=> {
-    this.setState(prevState=>{
-      const newState={
+  deleteItem = (id) => {
+    this.setState((prevState) => {
+      const allItems = prevState.allItems;
+      delete allItems[id];
+      const newState = {
         ...prevState,
-        allItems:{
-          ...prevState.allItems,
-          [id]: {
-            ...prevState.allItems[id],
-            isCompleted: true
-          }
-        }
+        ...allItems,
       };
       this.saveItems(newState.allItems);
-      return {...newState}
-    })
+      return { ...newState };
+    });
   };
-  incompleteItem = id => {
-    this.setState(prevState => {
+
+  completeItem = (id) => {
+    this.setState((prevState) => {
       const newState = {
         ...prevState,
         allItems: {
           ...prevState.allItems,
           [id]: {
             ...prevState.allItems[id],
-            isCompleted: false
-          }
-        }
+            isCompleted: true,
+          },
+        },
       };
       this.saveItems(newState.allItems);
       return { ...newState };
     });
   };
+
+  incompleteItem = (id) => {
+    this.setState((prevState) => {
+      const newState = {
+        ...prevState,
+        allItems: {
+          ...prevState.allItems,
+          [id]: {
+            ...prevState.allItems[id],
+            isCompleted: false,
+          },
+        },
+      };
+      this.saveItems(newState.allItems);
+      return { ...newState };
+    });
+  };
+
   deleteAllItems = async () => {
     try {
       await AsyncStorage.removeItem('ToDos');
@@ -137,21 +142,23 @@ export default class Main extends React.Component {
       console.log(err);
     }
   };
-  saveItems = newItem => {
+
+  saveItems = (newItem) => {
     const saveItem = AsyncStorage.setItem('To Dos', JSON.stringify(newItem));
   };
+
   render() {
-   const{ inputValue,loadingItems,allItems }= this.state;
-    return ( 
-       
+    const { inputValue, loadingItems, allItems } = this.state;
+    return (
+
       <LinearGradient colors={primaryGradientArray} style={styles.container}>
-         <StatusBar barStyle="light-content" />
+        <StatusBar barStyle="light-content" />
         <View style={styles.centered}>
           <Header title={headerTitle} />
         </View>
         <View style={styles.inputContainer}>
-        <SubTitle subtitle = {'what next'}/>
-        
+          <SubTitle subtitle="what next" />
+
           <Input
             inputValue={inputValue}
             onChangeText={this.newInputValue}
@@ -160,10 +167,10 @@ export default class Main extends React.Component {
         </View>
         <View style={styles.list}>
           <View style={styles.column}>
-            <SubTitle subtitle = {'Recent Notes'}/>
-            <View style={styles.deleteAllButton}> 
-            <Button deleteAllItems = {this.deleteAllItems}/>
-              
+            <SubTitle subtitle="Recent Notes" />
+            <View style={styles.deleteAllButton}>
+              <Button deleteAllItems={this.deleteAllItems} />
+
             </View>
           </View>
           {loadingItems ? (
@@ -191,30 +198,30 @@ export default class Main extends React.Component {
 }
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
   },
   centered: {
-    alignItems: 'center'
+    alignItems: 'center',
   },
   inputContainer: {
     marginTop: 40,
-    paddingLeft: 15
+    paddingLeft: 15,
   },
   list: {
     flex: 1,
     marginTop: 70,
     paddingLeft: 15,
-    marginBottom: 10
+    marginBottom: 10,
   },
   scrollableList: {
-    marginTop: 15
+    marginTop: 15,
   },
   column: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   deleteAllButton: {
-    marginRight: 40
-  }
+    marginRight: 40,
+  },
 });

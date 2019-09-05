@@ -1,6 +1,6 @@
 import React from 'react';
 import { LinearGradient } from "expo";
-import {primaryGradientArray } from "../app/utils/Colors";
+import {primaryGradientArray } from "../../app/utils/Colors";
 import { StyleSheet,Dimensions,Image } from 'react-native'
 import {Content,Container,Text,Button,View} from "native-base";
 
@@ -62,7 +62,7 @@ export default class LoadingScreen extends React.Component{
                 <LinearGradient colors={primaryGradientArray} style={styles.gradient}>
                 <Content contentContainerStyle={styles.container}>
                     <View style={styles.imageContainer}>
-                        <Image resizeMode='contain' style={styles.logo} source={require('../assets/images/logo.png')}/>
+                        <Image resizeMode='contain' style={styles.logo} source={require('../../assets/images/logo.png')}/>
                     </View>
                     <View style={styles.buttonsContainer}>
                     <Button transparent bordered style={styles.button}><Text style={{color:'white',fontWeight: '200'}}>Sign up</Text></Button>
